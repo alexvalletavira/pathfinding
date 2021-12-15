@@ -1,0 +1,298 @@
+.casilla{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px lightslategrey solid;
+}
+
+@keyframes animacionHaciaAzulCasillaKeyframes {
+    0%   { opacity: 0; }
+    50% { transform : scale(1.2); }
+    100% { transform : scale(1); background-color: #2A325A;}
+}
+
+.animacionHaciaAzulCasilla {
+    z-index: 98;
+    animation-name: animacionHaciaAzulCasillaKeyframes;
+    animation-duration: 0.3s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes animacionHaciaBlancoCasillaKeyframes {
+    0%   { opacity: 0; background-color: #2A325A;}
+    50% { transform : scale(1.05); }
+    100% { transform : scale(1); background-color: white;}
+}
+
+.animacionHaciaBlancoCasilla {
+    z-index: 98;
+    animation-name: animacionHaciaBlancoCasillaKeyframes;
+    animation-duration: 0.4s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes animacionHaciaAmarilloCasillaKeyframes {
+    0%   { opacity: 0; background-color: white;}
+    50% { transform : scale(1.05); }
+    100% { transform : scale(1); background-color: #ffff9a;}
+}
+
+.animacionHaciaAmarilloCasilla {
+    z-index: 98;
+    animation-name: animacionHaciaAmarilloCasillaKeyframes;
+    animation-duration: 0.4s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes animacionHaciaNaranjaCasillaKeyframes {
+    0%   { opacity: 0; background-color: #ffff9a;}
+    50% { transform : scale(1.05); }
+    100% { transform : scale(1); background-color: #ffc04d;}
+}
+
+.animacionHaciaNaranjaCasilla {
+    z-index: 98;
+    animation-name: animacionHaciaNaranjaCasillaKeyframes;
+    animation-duration: 0.4s;
+    animation-fill-mode:forwards;
+}
+
+.toggleDibujar{
+    display : flex;
+    user-select: none;
+    height: 1.9vw;
+    width: 1.9vw;
+    align-items : center;
+    justify-content: center;
+    border: 2px #2A325A solid;
+    background-color: white;
+    border-radius: 25px;
+}
+
+@keyframes animacionHaciaAzulToggleDibujarKeyframes {
+    0%   { background-color: white; border: #2A325A}
+    100% { transform : scale(1); background-color: #2A325A; border-color: white}
+}
+
+.animacionHaciaAzulToggleDibujar {
+    z-index: 98;
+    animation-name: animacionHaciaAzulToggleDibujarKeyframes;
+    animation-duration: 0.3s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes animacionHaciaBlancoToggleDibujarKeyframes {
+    0%   { background-color: #2A325A; border: white}
+    100% { transform : scale(1); background-color: white; border-color: #2A325A}
+}
+
+.animacionHaciaBlancoToggleDibujar {
+    z-index: 98;
+    animation-name: animacionHaciaBlancoToggleDibujarKeyframes;
+    animation-duration: 0.4s;
+    animation-fill-mode:forwards;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    width: 100%;
+    justify-content: center;
+    background-color: #34495e;
+    height: 53px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#follow {
+    position: absolute;
+    text-align: center;
+}
+
+.texthover{
+    font-family: 'Lato', 'Roboto', sans-serif;
+    font-size: 0.95vw;
+    font-weight: 100;
+    color: white;
+}
+
+.text{
+    font-family: 'Lato', 'Roboto', sans-serif;
+    font-size: 0.95vw;
+    font-weight: 100;
+    color: white;
+    min-width: 11vw;
+    overflow: visible;
+}
+
+.texthover:hover{
+    font-weight: 100;
+    animation-name: texthoverKeyframes;
+    animation-duration: 0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes texthoverKeyframes {
+    0%   { color: white}
+    100% { color: darkcyan;}
+}
+
+.menu{
+    list-style:none;
+    max-height: 53px;
+}
+
+
+.dropbtn {
+    font-family: 'Lato', 'Roboto', sans-serif;
+    background-color: #34495e;
+    color: white;
+    padding: 16px;
+    font-size: 0.95vw;
+    border: none;
+    cursor: pointer;
+    max-height: 53px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #34495e;
+    width: 13vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 101;
+    border-radius: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    position: relative;
+    left: 3px;
+    font-family: 'Lato', 'Roboto', sans-serif;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    user-select: none;
+    margin-right: 7px;
+    font-size: 0.95vw;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    font-weight: 100;
+    animation-name: texthoverKeyframes;
+    animation-duration: 0.6s;
+    animation-fill-mode:forwards;
+}
+
+.coolButton{
+    font-family: 'Lato', 'Roboto', sans-serif;
+    background-color: darkcyan;
+    color: white;
+    font-size: 0.9vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 41px;
+    width: 1vw;
+}
+
+#start{
+
+    width: 11vw;
+
+}
+
+#clearPath{
+    width: 9vw;
+}
+
+#clearBlock{
+    width: 9vw;
+}
+
+.coolButton:hover{
+    font-weight: 100;
+    animation-name: starthoverKeyframes;
+    animation-duration: 0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes starthoverKeyframes {
+    0%   { background-color: darkcyan}
+    100% { background-color: #005d5d;}
+}
+
+#tutorial{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    border: 1px solid #2A325A;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    filter: drop-shadow(0 0 30px #333);
+}
+
+.textT{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2A325A;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.textD{
+    font-family: 'Roboto', sans-serif;
+    color: #2A325A;
+    font-size: 20px;
+}
+
+#buttonTutorial{
+    font-family: 'Lato', 'Roboto', sans-serif;
+    background-color: darkcyan;
+    color: white;
+    padding: 16px;
+    font-size: 2vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-height: 70px;
+    width: 16vh;
+}
+
+#buttonTutorial:hover{
+    font-weight: 100;
+    animation-name: starthoverKeyframes;
+    animation-duration: 0.6s;
+    animation-fill-mode:forwards;
+}

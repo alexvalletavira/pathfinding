@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6608d24e-1673-4e95-a126-bb6bb716c82b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1yMac8HukVfnk1kjZVvfXs41H0u" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/SallePw/pw2_grupo_18" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\pathfinding\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\pathfinding\modules" />
+      <recent name="C:\Users\Alex\Desktop\pathfinding" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6608d24e-1673-4e95-a126-bb6bb716c82b" name="Default Changelist" comment="" />
+      <created>1632063987079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632063987079</updated>
+      <workItem from="1632064089722" duration="4771000" />
+      <workItem from="1632087906307" duration="3079000" />
+      <workItem from="1632565168298" duration="992000" />
+      <workItem from="1632913168075" duration="17248000" />
+      <workItem from="1633006811630" duration="4026000" />
+      <workItem from="1633011056994" duration="21075000" />
+      <workItem from="1633074352977" duration="529000" />
+      <workItem from="1633343686925" duration="11225000" />
+      <workItem from="1633463422146" duration="4291000" />
+      <workItem from="1633468717527" duration="25000" />
+      <workItem from="1633468819185" duration="288000" />
+      <workItem from="1633949670221" duration="10254000" />
+      <workItem from="1634046806069" duration="4904000" />
+      <workItem from="1634068076390" duration="7209000" />
+      <workItem from="1634126833923" duration="1745000" />
+      <workItem from="1634209907156" duration="6221000" />
+      <workItem from="1634328727169" duration="5896000" />
+      <workItem from="1634468424641" duration="6146000" />
+      <workItem from="1634803378749" duration="20071000" />
+      <workItem from="1635074499241" duration="11864000" />
+      <workItem from="1635110252466" duration="8676000" />
+      <workItem from="1635861221463" duration="7138000" />
+      <workItem from="1635892340820" duration="859000" />
+      <workItem from="1636540409507" duration="1238000" />
+      <workItem from="1636558764228" duration="1774000" />
+      <workItem from="1637699034699" duration="448000" />
+      <workItem from="1637699516608" duration="11000" />
+      <workItem from="1637743457093" duration="1297000" />
+      <workItem from="1637921136015" duration="950000" />
+      <workItem from="1638207764110" duration="2090000" />
+      <workItem from="1638215062468" duration="37000" />
+      <workItem from="1638216611619" duration="205000" />
+      <workItem from="1638217448302" duration="113000" />
+      <workItem from="1638222754532" duration="219000" />
+      <workItem from="1638273608426" duration="122000" />
+      <workItem from="1638281094144" duration="31000" />
+      <workItem from="1639498207459" duration="796000" />
+      <workItem from="1639499656583" duration="3092000" />
+      <workItem from="1639582110189" duration="217000" />
+      <workItem from="1639582638881" duration="206000" />
+      <workItem from="1639582865310" duration="98000" />
+      <workItem from="1639582995661" duration="416000" />
+      <workItem from="1639584130911" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
